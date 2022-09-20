@@ -1,3 +1,5 @@
+Professor : Paul Nguyen
+
 # Starbucks Mobile App (Text UI) Project
 
 # Add Card Sequence Diagram
