@@ -1,6 +1,6 @@
-**Professor : Paul Nguyen**
-**Course : CMPE 202**
-**Project : Starbucks**
+**Professor : Paul Nguyen** <br />
+**Course : CMPE 202** <br />
+**Project : Starbucks** <br />
 
 # Starbucks Mobile App (Text UI) Project
 
