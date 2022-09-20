@@ -1,0 +1,288 @@
+Creating Device instance
+calling getInstance 1234
+Calling api for cards
+============================================
+--------- D E V I C E  S T A T E  ----------
+============================================
+Pin Option    = 4
+Stored Pin    = 1234
+Authenticated = false
+Orientation   = null
+============================================
+calling startup
+In startup
+Adding Passcode cmpt
+Focused on card id
+Screen: starbucks.Passcode4
+Screen: starbucks.Spacer
+Screen: starbucks.KeyPad
+0: ----------------
+1:      
+2: ----------------
+3:         
+4:         
+5:   [_][_][_][_]
+6:         
+7:   [1] [2] [3]
+8:   [4] [5] [6]
+9:   [7] [8] [9]
+10:   [_] [0] [X]
+11: 
+12: 
+13: ----------------
+KeyPad Touched at (1, 5)
+Key: 1
+Key: 1 Count: 1
+Current State: starbucks.OnePinDigit
+D1 = 1
+D2 = 
+D3 = 
+D4 = 
+D5 = 
+D6 = 
+Screen: starbucks.Passcode4
+Screen: starbucks.Spacer
+Screen: starbucks.KeyPad
+0: ----------------
+1:      
+2: ----------------
+3:         
+4:         
+5:   [*][_][_][_]
+6:         
+7:   [1] [2] [3]
+8:   [4] [5] [6]
+9:   [7] [8] [9]
+10:   [_] [0] [X]
+11: 
+12: 
+13: ----------------
+KeyPad Touched at (2, 5)
+Key: 2
+Key: 2 Count: 2
+Current State: starbucks.TwoPinDigits
+D1 = 1
+D2 = 2
+D3 = 
+D4 = 
+D5 = 
+D6 = 
+Screen: starbucks.Passcode4
+Screen: starbucks.Spacer
+Screen: starbucks.KeyPad
+0: ----------------
+1:      
+2: ----------------
+3:         
+4:         
+5:   [*][*][_][_]
+6:         
+7:   [1] [2] [3]
+8:   [4] [5] [6]
+9:   [7] [8] [9]
+10:   [_] [0] [X]
+11: 
+12: 
+13: ----------------
+KeyPad Touched at (3, 5)
+Key: 3
+Key: 3 Count: 3
+Current State: starbucks.ThreePinDigits
+D1 = 1
+D2 = 2
+D3 = 3
+D4 = 
+D5 = 
+D6 = 
+Screen: starbucks.Passcode4
+Screen: starbucks.Spacer
+Screen: starbucks.KeyPad
+0: ----------------
+1:      
+2: ----------------
+3:         
+4:         
+5:   [*][*][*][_]
+6:         
+7:   [1] [2] [3]
+8:   [4] [5] [6]
+9:   [7] [8] [9]
+10:   [_] [0] [X]
+11: 
+12: 
+13: ----------------
+KeyPad Touched at (4, 5)
+Key: 4
+Key: 4 Count: 4
+Current State: starbucks.FourPinDigits
+D1 = 1
+D2 = 2
+D3 = 3
+D4 = 4
+D5 = 
+D6 = 
+Authenticating...
+Successful Login!
+Current State: starbucks.FourPinDigits
+D1 = 1
+D2 = 2
+D3 = 3
+D4 = 4
+D5 = 
+D6 = 
+ClassName: starbucks.MyCards
+....
+.....
+0: ===============
+1:     My Cards
+2: ===============
+3: 
+4: 
+5: 
+6: 
+7:      $0.00
+8: 
+9: 
+10: 
+11: 
+12: 
+13: ===============
+14: [A][B][C][D][E]
+ClassName: starbucks.Payments
+....
+....
+0: ===============
+1:     Payments
+2: ===============
+3: 
+4: 
+5: 
+6: 
+7: Find Store
+8: Enable Payments
+9: 
+10: 
+11: 
+12: 
+13: ===============
+14: [A][B][C][D][E]
+ClassName: starbucks.Rewards
+....
+....
+0: ===============
+1:     Rewards
+2: ===============
+3: 
+4: 
+5: 
+6: 
+7: Make Every
+8: Visit Count
+9: 
+10: 
+11: 
+12: 
+13: ===============
+14: [A][B][C][D][E]
+ClassName: starbucks.MyCards
+....
+.....
+0: ===============
+1:     My Cards
+2: ===============
+3: 
+4: 
+5: 
+6: 
+7:      $0.00
+8: 
+9: 
+10: 
+11: 
+12: 
+13: ===============
+14: [A][B][C][D][E]
+ClassName: starbucks.Settings
+.
+Add cardAdd CardDelete CardDelete CardBillingBillingPasscodePasscodeAbout|TermsAbout|TermsHelpHelp
+...
+0: ===============
+1:     Settings
+2: ===============
+3: 
+4:     Add Card
+5:   Delete Card
+6:     Billing
+7:     Passcode
+8: 
+9:   About|Terms
+10:       Help
+11: 
+12: 
+13: ===============
+14: [A][B][C][D][E]
+Current Strategy is: starbucks.Frame$1@a2072d8b
+ClassName: starbucks.AddCard
+Screen: starbucks.CardNumber
+Screen: starbucks.CodeNumber
+Screen: starbucks.Spacer
+Screen: starbucks.KeyPad
+.
+Screen: starbucks.CardNumber
+Screen: starbucks.CodeNumber
+Screen: starbucks.Spacer
+ScreenException in thread "main" java.io.IOError: java.io.IOException: Input/output error
+	at java.io.Console.readLine(Console.java:254)
+	at java.io.Console.readLine(Console.java:272)
+	at starbucks.Main.main(Main.java:39)
+Caused by: java.io.IOException: Input/output error
+	at java.io.FileInputStream.read(FileInputStream.java:255)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.Console$LineReader.read(Console.java:437)
+	at java.io.Console.readline(Console.java:376)
+	at java.io.Console.readLine(Console.java:250)
+	... 2 more
+     []
+5:        []
+6: 
+7:   [1] [2] [3]
+8:   [4] [5] [6]
+9:   [7] [8] [9]
+10:   [_] [0] [X]
+11: 
+12: 
+13: ===============
+14: [A][B][C][D][E]
+Current Strategy is: starbucks.Frame$1@a2072d8b
+1 1
+1 1
+ClassName: starbucks.AddCard
+Screen: starbucks.CardNumber
+Screen: starbucks.CodeNumber
+Screen: starbucks.Spacer
+Screen: starbucks.KeyPad
+.
+Screen: starbucks.CardNumber
+Screen: starbucks.CodeNumber
+Screen: starbucks.Spacer
+Screen: starbucks.KeyPad
+Card ID: []Card code: []
+...
+0: ===============
+1:     Add Card
+2: ===============
+3: 
+4:        []
+5:        []
+6: 
+7:   [1] [2] [3]
+8:   [4] [5] [6]
+9:   [7] [8] [9]
+10:   [_] [0] [X]
+11: 
+12: 
+13: ===============
+14: [A][B][C][D][E]
+Exception in thread "main" 
