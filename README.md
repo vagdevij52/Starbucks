@@ -1,4 +1,6 @@
-Professor : Paul Nguyen
+**Professor : Paul Nguyen**
+**Course : CMPE 202**
+**Project : Starbucks**
 
 # Starbucks Mobile App (Text UI) Project
 
